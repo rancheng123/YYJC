@@ -1,0 +1,33 @@
+.coupon{
+    .tab{
+      height:60px;
+      padding:10px;
+      background: #fff;
+    }
+    .content{
+
+    }
+}
+//优惠券的样式
+.coupon_quan{
+  width:690px;
+  height:183px;
+  //position: absolute;
+  margin-left:30px;
+
+  .img_bg{
+    width: 690px;
+    height:183px;
+    background: url("../../../image/coupon_low.png") no-repeat center;
+    background-size:100%;
+    position: relative;
+      .cut{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        top:20px;
+        left:50px;
+        font-size:14px;
+      }
+  }
+}

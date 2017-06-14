@@ -1,0 +1,198 @@
+
+.form-wrap{
+  margin-top:20px;
+}
+.form-content{
+  margin-top: 20px;
+  background: #fff;
+}
+.form-item{
+  display: flex;
+}
+.form-icon-box{
+  display: flex;
+  width:77px;
+  justify-content: center;
+  align-items: center;
+}
+.form-input-box{
+  flex: auto;
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:88px;
+  border-bottom:1px solid #dddddd;
+}
+.form-content .form-item:last-child .form-input-box{
+  border-bottom:none;
+}
+
+.form-input-box input[type='text'],
+.form-input-box input[type='password']{
+  display: block;
+  height:88px;
+  width:100%;
+  flex: auto;
+  border:none;
+  padding: 0px 12px;
+  box-sizing: border-box;
+  font-size:30px;
+}
+.form-verify-btn{
+  width:146px;
+  height:50px;
+  line-height:50px;
+  text-align: center;
+  background-color: #333;
+  margin-right: 20px;
+}
+.form-message-btn{
+  height:40px;
+  line-height:40px;
+  padding:18px 0px;
+  text-align: right;
+  font-size:30px;
+  color: #444;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+.form-detect{
+  padding: 23px 0px;
+}
+.form-register-btn{
+  display: block;
+  width:710px;
+  height:88px;
+  background: #fb343e;
+  color: #fff;
+  font-size:36px;
+  border-radius: 10px;
+  padding: 0px;
+  margin:0 auto;
+}
+.form-select-bank{
+  
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+}
+.form-error-box{
+
+  display: block;
+}
+.block{
+  display: block;
+  .tip-text{
+    animation: bounceIn 1s;
+  }
+}
+.form-tip{
+  position: relative;
+  line-height: 100%;
+  .error-icon{
+    padding:15px 12px 15px 30px;
+    span{
+      width:36px;
+      height:36px;
+      display: block;
+      background-image: url('../../../image/icon/error.png');
+      background-size: 36px 36px;
+    }
+  }
+  .tip-text{
+
+    position: absolute;
+    right:20px;
+    bottom:-40px;
+    background: #fff;
+    border: 1px solid #d81e06;
+    padding: 0 10px;
+    white-space: nowrap;
+    line-height: 38px;
+    transform-origin: right top;
+
+  }
+  .tip-text.bounceIn{
+    animation: 0.5s bounceIn;
+    //animation-fill-mode: forwards;
+  }
+  .tip-text.bounceOut{
+    animation: 0.5s bounceOut;
+    animation-fill-mode: forwards;
+  }
+  .tip-text:after, .tip-text:before {
+    bottom: 100%;
+    right: 0;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .tip-text:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #fff;
+    border-width: 8px;
+    margin-right: 0px;
+  }
+  .tip-text:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #d81e06;
+    border-width: 10px;
+    margin-right: -1.9px;
+  }
+}
+.form-error{
+  color: #fb343e;
+}
+

@@ -1,0 +1,2 @@
+webpackJsonp([23],{732:function(module,exports){"use strict";throw new Error("Module build failed: SyntaxError: H:/work/YYJC/Qianjia/frontEnd/qianjia/src/js/page/module4/module4.js: Unexpected token (93:4)\n\n[0m [90m 91 | [39m\n [90m 92 | [39m\n[31m[1m>[22m[39m[90m 93 | [39m    }\n [90m    | [39m    [31m[1m^[22m[39m\n [90m 94 | [39m\n [90m 95 | [39m\n [90m 96 | [39m[0m\n")}});
+//# sourceMappingURL=module4.f61f8.chunk.js.map

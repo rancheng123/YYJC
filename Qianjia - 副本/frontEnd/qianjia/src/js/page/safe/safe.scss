@@ -1,0 +1,114 @@
+html{
+  background: #f0f0f0;
+}
+.pagination-container {
+  margin: 0 16px;
+}
+.pagination-container .arrow-align {
+  display: flex;
+  align-items: center;
+}
+.sub-title {
+  color: #888;
+  font-size: 16px;
+  padding: 30px 0 18px 0;
+}
+.safe{
+  background: #f0f0f0;
+  /*padding:0 5%;*/
+      ul{
+        background: #fff;
+        padding:0 0 0 5%;
+      }
+      .safe_title{
+        line-height: 80px;
+        height:80px;
+        text-align: left;
+        font-size: 28px;
+        color:#2b2b2b;
+        padding-left:5%;
+      }
+      .safe_list{
+        background: #fff;
+          ._left{
+            float:left;
+            width: 10%;
+            line-height: 80px;
+            height:80px;
+              ._img{
+                width: 35px;
+                height:32px;
+                margin: 29px auto;
+              }
+          }
+        ._right{
+          float:right;
+          width:90%;
+          line-height:80px;
+          height:80px;
+          border-bottom: 1px solid #ddd;
+                input{
+                  width: 95%;
+                  border: 1px solid #fff;
+                  height:80%;
+                  padding: 0 2%;
+                  font-size: 28px;
+                }
+        }
+        ._rightLast{
+          border-bottom: 1px solid #fff;
+        }
+        ._right_C{
+          border-bottom: 1px solid #ddd;
+        }
+        li:after{
+          content:'';
+          display: block;
+          height:0;
+          font-size: 0;
+          clear:both;
+          visibility:hidden;
+        }
+      }
+  .safe_btm{
+    background: #f0f0f0;
+          p{
+            font-size: 26px;
+            color:#666;
+            padding-left:7%;
+            line-height:70px;
+            height:70px;
+          }
+  }
+}
+.am-list-item .am-list-line .am-list-extra{
+  text-align: left;
+  font-size: 28px;
+  text-align: left !important;
+}
+.am-list-item{
+  line-height:80px;
+  height:80px;
+  min-height: 0;
+  overflow: hidden;
+  padding-left:15px;
+  color:#999;
+}
+.am-list-item.am-input-item{
+  line-height:80px;
+  height:80px;
+  font-size: 28px;
+  padding-left:0;
+}
+.am-list-item.am-input-item:after{
+  border-bottom: 0;
+}
+.am-list-item .am-list-line .am-list-extra{
+  color:#999;
+}
+.am-list-item .am-list-line{
+  min-height:0;
+}
+.safe_btn{
+  margin-top:70px;
+}

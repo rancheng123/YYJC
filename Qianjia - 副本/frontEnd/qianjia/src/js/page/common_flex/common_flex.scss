@@ -1,0 +1,38 @@
+.g-flex-form{
+  flex-flow: column;
+  display:flex;
+  color: #2b2b2b;
+  overflow: hidden;
+  .g-flex-head{
+    height:74px;
+    line-height:72px;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 1px solid #dcdbdb;
+    box-sizing: content-box;
+    background-color: #fff;
+    position: relative;
+  }
+  .g-flex-content{
+    flex: auto;
+    overflow-y: auto;
+  }
+  .g-flex-back-btn{
+    position: absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.15rem;
+  }
+  .g-flex-more-btn{
+    position: absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.2rem;
+  }
+}

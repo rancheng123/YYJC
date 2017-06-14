@@ -1,0 +1,84 @@
+html{
+
+  width: 100%;
+  height:100%;
+  position: relative;
+}
+body{
+  background: #cdcdcd;
+}
+.backMotail{
+  background: rgba(0,0,0,.2);
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+//.table_btn{
+//  line-height: 70px;
+//    background: #fff;
+//    height: 70px;
+//}
+//.am-wingblank.am-wingblank-lg{
+//  margin-left:0;
+//  margin-right: 0;
+//}
+//.am-segment{
+//  border-radius: 0;
+//  min-height: 70px;
+//}
+//.am-segment-item:first-child{
+//  border-radius:0;
+//}
+//.am-segment-item-selected{
+//  background: #fff;
+//  color: #fb343e !important;
+//}
+//.am-segment-item{
+//  border:0;
+//  border-right: 1px solid #ddd;
+//  line-height: 30px;
+//  height: 30px;
+//  margin:20px 0;
+//}
+//.am-segment-item:last-child{
+//  border-right: 0;
+//}
+.myInvestCont{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  background: #fff;
+  text-align: center;
+  margin-top:25px;
+}
+//切换table
+.table_btn{
+    width: 100%;
+    background: #fff;
+      ul{
+        height: 70px;
+      }
+      li{
+        float:left;
+        width: 33.1%;
+        line-height: 50px;
+        height: 40px;
+        text-align: center;
+        border-right: 1px solid #ddd;
+        margin:15px auto;
+      }
+      li:last-child{
+        border-right: 0;
+      }
+      ul:after{
+        content:'';
+        display: block;
+        clear:both;
+        visibility:hidden;
+      }
+      .table_btn_active{
+        color:#fb343e;
+      }
+}
